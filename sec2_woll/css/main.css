@@ -416,4 +416,158 @@ h2, h3
     max-width: 50px;
   }
 
+  .services p
+  {
+    text-align: left;
+  }
+
+  #pano
+  {
+    background-image: url(../img/panoramic_bg_2.jpg)
+  }
+
+  #extraCon
+  {
+    display: flex;
+  }
+
+  .extras:last-child
+  {
+    margin-left: 40px;
+  }
+
+  #backBut
+  {
+    display: none;
+  }
+
+  #footerNav
+  {
+    display: block;
+  }
+
+  #footerCon ul li 
+  {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  #footerCon ul li a 
+  {
+    color: #fff;
+    line-height: 70px;
+  }
+
+  #footerCon ul li a:hover
+  {
+    color: #333;
+  }
+
+}
+
+
+@media screen and (min-width: 800px) {
+
+  #infoFrost
+  {
+    background: url(../img/golf_club.png) right no-repeat rgba(255,255,255,0.8); /*numbers inside the brackets make it a translucent white*/
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  #mainHeader
+  {
+    display: flex;
+  }
+
+  #button
+  {
+    display: none;
+  }
+
+  #burgerCon
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #logoCon
+  {
+    order: -1;
+  }
+
+  #mainNav
+  {
+    margin-left: auto;
+  }
+
+  #mainNav li
+  {
+    border-bottom: none;
+    display: inline;
+    margin-left: 20px;
+  }
+
+  #mainNav li:first-child
+  {
+    border-top: none;
+  }
+
+  #mainNav li a 
+  {
+    display: inline;
+  }
+
+  #searchForm
+  {
+    order: -1;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+
+  #wollastonLogo
+  {
+    max-width: 160px;
+  }
+
+  #pano
+  {
+    background: url(../img/panoramic_bg_1.jpg) center no-repeat;
+  }
+
+  .icon
+  {
+    max-width: 70px;
+  }
+
+  .services h2
+  {
+    font-size: 24px;
+  }
+
+  .services h3
+  {
+    font-size: 18px;
+  }
+
+  .extrasImg
+  {
+    max-width: 270px;
+    float: left;
+    margin-right: 20px;
+  }
+
+  .extras h2
+  {
+    margin-top: 30px;
+  }
+
+  #infoFrost
+  {
+    max-width: 970px;
+    margin: 0;
+  }
+  
 }
